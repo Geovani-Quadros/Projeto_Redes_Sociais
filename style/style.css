@@ -80,7 +80,7 @@ section#socialNetworks img:hover{
 
 @media (max-width: 500px ){
     section#phone {
-        margin-top: 10px;    
+        margin-top: 15px;    
     }
 
     section#socialNetworks {
@@ -91,6 +91,7 @@ section#socialNetworks img:hover{
 
     section#socialNetworks a {
         height: 35px;
+        margin: 5px;
     }
     
     section#socialNetworks img{
@@ -99,7 +100,7 @@ section#socialNetworks img:hover{
     
     section#socialNetworks a:hover{
         height: 41px;
-        margin: 7px;
+        margin: 2px;
         transition: height 0.3s, margin 0.3s, box-shadow 0.3s;
     }
     
