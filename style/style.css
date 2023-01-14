@@ -29,17 +29,17 @@ section#phone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
-    width: 311px;
+    height: 580px;
+    width: 288px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 iframe#screen {
     position: relative;
-    top: 80px;
-    left: 22px;
-    height: 471px;
-    width: 267px;
+    top: 75px;
+    left: 21px;
+    height: 434px;
+    width: 245px;
 }
 
 section#socialNetworks {
@@ -74,4 +74,37 @@ section#socialNetworks a:hover{
 section#socialNetworks img:hover{
     height: 56px;
     transition: height 0.3s;
+}
+
+
+
+@media (max-width: 500px ){
+    section#phone {
+        margin-top: 10px;    
+    }
+
+    section#socialNetworks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section#socialNetworks a {
+        height: 35px;
+    }
+    
+    section#socialNetworks img{
+        height: 35px;
+    }
+    
+    section#socialNetworks a:hover{
+        height: 41px;
+        margin: 7px;
+        transition: height 0.3s, margin 0.3s, box-shadow 0.3s;
+    }
+    
+    section#socialNetworks img:hover{
+        height: 41px;
+        transition: height 0.3s;
+    }
 }
